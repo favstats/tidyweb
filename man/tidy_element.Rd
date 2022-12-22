@@ -4,10 +4,10 @@
 \alias{tidy_element}
 \title{tidy_element}
 \usage{
-tidy_element(elems, depth = 0)
+tidy_element(element, depth = 0)
 }
 \arguments{
-\item{elems}{a list of selenium-elements}
+\item{element}{a list of xml nodes representing individual divs or a list of selenium-elements}
 
 \item{depth}{a numeric value indicating how deep the search should go.}
 }
